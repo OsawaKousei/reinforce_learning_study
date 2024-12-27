@@ -14,9 +14,11 @@ dependencies = [
     "numpy>=2.2.1",
     "pre-commit>=4.0.1",
     "pyqt5>=5.15.11",
+    "rl-util",
     "setuptools>=75.6.0",
     "tqdm>=4.67.1",
 ]
 
 [tool.uv.sources]
 grid-world = { path = "src/grid_world_pkg" }
+rl-util = { path = "src/rl_util_pkg" }

@@ -754,6 +754,7 @@ dependencies = [
     { name = "numpy" },
     { name = "pre-commit" },
     { name = "pyqt5" },
+    { name = "rl-util" },
     { name = "setuptools" },
     { name = "tqdm" },
 ]
@@ -769,9 +770,15 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.1" },
     { name = "pre-commit", specifier = ">=4.0.1" },
     { name = "pyqt5", specifier = ">=5.15.11" },
+    { name = "rl-util", directory = "src/rl_util_pkg" },
     { name = "setuptools", specifier = ">=75.6.0" },
     { name = "tqdm", specifier = ">=4.67.1" },
 ]
+
+[[package]]
+name = "rl-util"
+version = "0.1"
+source = { directory = "src/rl_util_pkg" }
 
 [[package]]
 name = "setuptools"
