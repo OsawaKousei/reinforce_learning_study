@@ -15,6 +15,10 @@
         "F": "Warning",
         "I": "Warning"
     },
+    "flake8.args": [
+        "--max-line-length=88",
+        "--ignore=E203,E501,W503"
+    ],
     "mypy-type-checker.args": [
         "--warn-return-any",
         "--no-implicit-optional",
