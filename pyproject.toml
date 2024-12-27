@@ -7,10 +7,16 @@ requires-python = ">=3.10"
 dependencies = [
     "black>=24.10.0",
     "flake8>=7.1.1",
+    "grid-world",
     "isort>=5.13.2",
     "matplotlib>=3.10.0",
     "mypy>=1.14.0",
     "numpy>=2.2.1",
     "pre-commit>=4.0.1",
     "pyqt5>=5.15.11",
+    "setuptools>=75.6.0",
+    "tqdm>=4.67.1",
 ]
+
+[tool.uv.sources]
+grid-world = { path = "src/grid_world_pkg", editable = true }
