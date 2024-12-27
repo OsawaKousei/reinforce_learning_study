@@ -30,5 +30,6 @@
     "mypy-type-checker.severity": {
         "error": "Information",
         "note": "Information"
-    }
+    },
+    "python.analysis.extraPaths": ["src/grid_world"]
 }

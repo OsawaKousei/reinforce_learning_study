@@ -214,7 +214,7 @@ wheels = [
 [[package]]
 name = "grid-world"
 version = "0.1"
-source = { editable = "src/grid_world_pkg" }
+source = { directory = "src/grid_world_pkg" }
 
 [[package]]
 name = "identify"
@@ -762,7 +762,7 @@ dependencies = [
 requires-dist = [
     { name = "black", specifier = ">=24.10.0" },
     { name = "flake8", specifier = ">=7.1.1" },
-    { name = "grid-world", editable = "src/grid_world_pkg" },
+    { name = "grid-world", directory = "src/grid_world_pkg" },
     { name = "isort", specifier = ">=5.13.2" },
     { name = "matplotlib", specifier = ">=3.10.0" },
     { name = "mypy", specifier = ">=1.14.0" },

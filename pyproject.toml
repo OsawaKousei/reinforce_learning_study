@@ -19,4 +19,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-grid-world = { path = "src/grid_world_pkg", editable = true }
+grid-world = { path = "src/grid_world_pkg" }
