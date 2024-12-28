@@ -25,9 +25,9 @@ class QNet(nn.Module):
 
 class DQNAgent:
     def __init__(self) -> None:
-        self.gamma = 0.9
+        self.gamma = 0.98
         self.lr = 0.0005
-        self.epsilon = 0.1
+        self.epsilon = 0.05
         self.buffer_size = 10000
         self.batch_size = 32
         self.action_size = 2
