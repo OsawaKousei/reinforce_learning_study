@@ -2,7 +2,7 @@ from collections import defaultdict
 
 import numpy as np
 from grid_world import GridWorld
-from mc_control import greedy_probs
+from rl_util import greedy_probs
 
 
 class McAgent:
